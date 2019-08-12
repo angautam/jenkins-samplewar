@@ -1,3 +1,5 @@
+def label = "jenkins-agent-${UUID.randomUUID().toString()}"
+
 def workspace = "${home}/workspace/build-docker-jenkins"
 def workdir = "${workspace}/src/localhost/docker-jenkins/"
 
